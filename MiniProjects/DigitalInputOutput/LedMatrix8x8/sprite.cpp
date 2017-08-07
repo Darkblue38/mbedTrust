@@ -1,5 +1,6 @@
 /*!
 * This file is used to scroll string to test
+* Reference : https://playground.arduino.cc/Main/DirectDriveLEDMatrix
 */
 
 #include "mbed.h"
