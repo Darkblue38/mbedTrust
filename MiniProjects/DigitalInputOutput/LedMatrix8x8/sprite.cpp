@@ -1,5 +1,6 @@
 /*!
 * This file is used to scroll string to test
+* Reference : https://playground.arduino.cc/Main/DirectDriveLEDMatrix
 */
 
 #include "mbed.h"
@@ -128,6 +129,7 @@ void display() {
 }
 
 // Ticker function is used to generate a periodic function call
+// Please refer https://developer.mbed.org/handbook/Ticker
 Ticker flipper;
 
 int main()
